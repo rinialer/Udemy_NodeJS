@@ -1,0 +1,9 @@
+h1 {
+    font: 300;
+    font-family: sans-serif;
+}
+
+button {
+    border: 1px solid black;
+    color: lightcoral;
+}
