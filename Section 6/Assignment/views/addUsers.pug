@@ -1,0 +1,9 @@
+extends layouts/main-layout.pug
+
+block content 
+    main 
+        form.user-form(action="/", method="POST")
+            .form-control 
+                label(for="user") User 
+                input(type="text", name="user", id="user")
+            button.btn(type="submit") Add User
